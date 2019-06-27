@@ -64,3 +64,8 @@ def totalOrder(cartId):
     for cartItem in cartItems: 
         total += cartItem.item.price
     return total
+
+def removeCartItem(request, cartItemId):
+    cartItemWillBeDeleted = CartItem.objects.get(id = cartItemId)
+    cartItemWillBeDeleted.delete()
+    return redirect('/cart/')
