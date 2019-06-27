@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\core",
+    "\\product",
+    "\\shop",
+    "\\static",
+    "\\static\\vendor",
+    "\\templates",
+    "\\templates\\pages"
+  ],
+  "SelectedNode": "\\core\\urls.py",
+  "PreviewInSolutionExplorer": false
+}

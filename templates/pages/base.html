@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    {% endblock head %}
+</head>
+<body>
+    <div class="super_container">
+        {% block content%}
+        {% endblock %}
+
+        {% include 'pages/footer.html' %}
+    </div>
+
+    {% block scripts %}
+    {% endblock scripts %}
+</body>
+</html>
